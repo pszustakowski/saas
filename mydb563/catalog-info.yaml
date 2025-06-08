@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: mydb563
+  description: New Valkey db cluster named mydb563
+  annotations:
+    github.com/project-slug: test-backstage6/mydb563
+    backstage.io/techdocs-ref: dir:.
+  links:
+    - url: https://dashboard.example.com
+      title: Grafana dashboard for mydb563
+      icon: dashboard
+spec:
+  type: service
+  owner: development
+  lifecycle: experimental
